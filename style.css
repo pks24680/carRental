@@ -1,0 +1,459 @@
+.center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+#suggestions-container {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 100%;
+    z-index: 1000;
+    color: black;
+    margin-top: 50px;
+}
+#suggestions-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+#suggestions-container li {
+    padding: 8px;
+    cursor: pointer;
+    color: black;
+}
+#suggestions-container li:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+#all-products {
+    margin-top: 100px; /* Adjust this value if necessary */
+}
+
+#navbar {
+    transition: background-color 0.3s ease;
+    background-color: #000;
+    color: #ffffff;
+}
+
+.nav-link{
+    color: #ffffff;
+}
+
+.dropdown-toggle{
+    color: #ffffff;
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:focus,
+.dropdown-toggle:active {
+    color: #ffffff86 !important;
+}
+
+.dropdown-item{
+    color: #ffffff;
+    background-color: #000;
+}
+
+.dropdown-item .dropdown-toggle:hover,
+.dropdown-item .dropdown-toggle:focus,
+.dropdown-item .dropdown-toggle:active{
+    background-color: white;
+}
+
+.dropdown-menu{
+    background-color: #000000;
+}
+
+.dropdown-submenu .dropdown-item {
+    background-color: #000 !important;
+    color: #ffffff !important;
+}
+
+.dropdown-submenu .dropdown-item:hover,
+.dropdown-submenu .dropdown-item:focus,
+.dropdown-submenu .dropdown-item:active {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+.dropdown-submenu:hover .dropdown-item {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+.dropdown-submenu:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu .dropdown-menu .dropdown-item {
+    color: #ffffff !important;
+    background-color: #000 !important;
+}
+
+.dropdown-submenu .dropdown-menu .dropdown-item:hover,
+.dropdown-submenu .dropdown-menu .dropdown-item:focus,
+.dropdown-submenu .dropdown-menu .dropdown-item:active {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus,
+.dropdown-item:active {
+    background-color: #ffffff;
+}
+
+
+.nav-link:hover{
+    color: #ffffff86;
+}
+
+.nav-link img:hover {
+    filter: brightness(120%);
+}
+
+.navbar-nav .nav-link .fas {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.navbar-nav .nav-link i.fa-cart-plus {
+    font-size: 5em;
+}
+
+.form-control-2 {
+    border-color: #ffffff;
+}
+
+.form-control {
+    border: 2px solid #000000;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.user-details .form-control{
+    width: 30%;
+}
+
+.form-control:focus {
+    border-color: #ffffff;
+    background-color: #9e9e9e;
+    box-shadow: 0 0 5px rgba(16, 16, 15, 0.8);
+    outline: none;
+}
+
+.form-control-2:focus {
+    border-color: #ffffff;
+    background-color: #9e9e9e;
+    box-shadow: 0 0 5px rgba(16, 16, 15, 0.8);
+    outline: none;
+}
+
+.btn-outline-success {
+    border-color: white;
+    color: white;
+}
+
+.btn-outline-success:hover {
+    border-color: white;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.407);
+}
+
+.btn .clear-cart-btn{
+    margin-left: 100px;
+}
+
+.btn-success {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.btn-success:disabled{
+    background-color:#333333;
+    color: #f1f1f1;
+}
+
+.btn-success:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.btn-success-stay {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.btn-success-stay:hover {
+    background-color: black;
+    color: white;
+    border-color: rgb(255, 255, 255);
+    filter: brightness(90%);
+}
+
+#background-image {
+    background-image: url('../imgs/Background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+#home {
+    background-color: rgba(255, 255, 255, 0.471);
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+#home h1 {
+    color: #000000;
+}
+
+#home p {
+    color: #000000;
+    font-size: 1.2em;
+}
+
+.btn-shopping-success {
+    color: #000000;
+    background-color: transparent;
+    border-color: black;
+    font-size: 1.5em;
+    padding: 15px 30px;
+}
+
+.btn-shopping-success:hover {
+    background-color: black;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+}
+
+::placeholder {
+    color: #666666;
+}
+
+.container.mt-5 {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+
+.container.mt-5 {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.card:hover {
+    opacity: 0.7;
+}
+
+.category-card .card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; 
+}
+
+.card .card-img-top {
+    width: 100%;
+    height: 250px;
+}
+
+.category-card:hover {
+    opacity: 0.7;
+}
+
+.cart table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart .product-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart th{
+    text-align: left;
+    padding: 5px 10px;
+    background-color: #ff9b05;
+    color: white;
+}
+
+.cart td{
+    padding: 10px 20px;
+}
+
+.cart td img{
+    width: 100px;
+    height: 120px;
+    margin-right: 10px;
+}
+
+.cart .product-info p{
+    margin: 2px;
+}
+
+.cart-total{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart-total table{
+    width: 100%;
+    max-width: 600px;
+    border-top: 3px solid #509b50;
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th:last-child{
+    text-align: right;
+}
+
+.checkout-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.checkout-btn{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ff9b05;
+    color:#ffffff;
+}
+
+.checkout-btn:hover{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ff9b05;
+    color:#ffffff;
+}
+
+#checkout-form{
+    display: inline-block;
+    width: 80%;
+    padding: 20px;
+    margin: 10px auto;
+}
+
+#checkout-form input{
+    border: 1px solid #333333;
+    margin: 5px auto;
+}
+
+#checkout-form .checkout-small-element{
+    display: inline-block;
+    width: 48%;
+    margin: 10px auto;
+}
+
+.container {
+    position: relative;
+}
+.btn-group {
+    position: absolute;
+    bottom: 20px;
+    left: 1010px;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#checkout-form .checkout-small-element .form-select{
+    border: 1px solid #000;
+}
+
+#checkout-form .checkout-large-element{
+    width: 96.5%;
+}
+
+#checkout-form .checkout-btn-container{
+    margin: 10px;
+    text-align:right;
+    margin-right: 40px;
+}
+
+#checkout-form #checkout-btn{
+    margin-top: 10px;
+    color:#ffffff;
+    background-color: #ff9b05;
+}
+
+.user-details {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.user-details .form-group {
+    width: 40%;
+    margin: 10px;
+}
+
+.user-details .form-group input,
+.user-details .form-group select {
+    width: 100%;
+    margin: 10px;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8rem;
+}
+        .navbar {
+            background-color: #C3E6CB;
+        }
+
+        #suggestions-container {
+            position: absolute;
+            background-color: white;
+            border: 1px solid #ddd;
+            max-height: 200px;
+            overflow-y: auto;
+            width: 100%;
+            z-index: 1000;
+            color: black;
+            margin-top: 50px;
+        }
+        #suggestions-container ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            color: black;
+        }
+        #suggestions-container li {
+            padding: 8px;
+            cursor: pointer;
+            color: black;
+        }
+        #suggestions-container li:hover {
+            background-color: #f1f1f1;
+            color: black;
+        }
