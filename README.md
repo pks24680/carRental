@@ -7,3 +7,4 @@ Uses PHP, AJAX, HTML, CSS, jquery lib and MySQL Database alongside use of JSON f
 JavaScript has been extensively used for managing both server side and client side scripts. 
 AJAX is sued to be sending XML data and PHP is extensively used for server side programming and calling and posting data to the database.
 The styling is handled via the CSS stylesheet provided and BootStrap and FontAwesome.
+A JSON file with all data related to the cars is used in addition to a MySQL database to manage orders
