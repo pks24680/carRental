@@ -1,6 +1,7 @@
 <?php
 $json_data = file_get_contents('cars.json');
 $cars = json_decode($json_data, true);
+//Loaded json data above
 
 $search_results = [];
 
@@ -178,14 +179,12 @@ if (isset($_GET['query'])) {
                     $('#suggestions-container').show();
                 }
             }
-
             $('form').submit(function (event) {
                 var query = $('#search_suggestions').val().trim();
                 if (query !== '') {
                     updateRecentKeywords(query);
                 }
             });
-
             $('#search_suggestions').on('input', function () {
                 var query = $(this).val();
                 if (query !== '') {
@@ -255,5 +254,4 @@ if (isset($_GET['query'])) {
         });
     </script>
 </body>
-
 </html>
